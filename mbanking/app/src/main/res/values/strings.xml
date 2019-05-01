@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">M-Banking</string>
+    <string name="title_activity_login">Authentification</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_client_space">ClientSpaceActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="exchange">Cours Devise</string>
+    <string name="convertir">Change Devise</string>
+    <string name="bourse">Marché Bourse</string>
+    <string name="login">Mon Espace</string>
+    <string name="start">Informations</string>
+    <string name="actualite">Actualité</string>
+    <string name="no_internet_connection">Error : Vérifier votre connéxion internet</string>
+    <string-array name="exchangeArray">
+        <item>Devise a convertir :</item>
+        <item>DZD -Dinars Algérien- </item>
+        <item>EUR -Euro-</item>
+        <item>USD -Dollar Américain-</item>
+        <item>PLN -Zloty Polonais-</item>
+        <item>GPB -Pounds Britanais-</item>
+        <item>RUB -Ruble Russe-</item>
+        <item>CZK -Couronne Tchéque</item>
+        <item>JPY -Yan Japonais-</item>
+    </string-array>
+    <string-array name="exchangeArray1">
+        <item>Devise Cible :</item>
+        <item>DZD -Dinars Algérien- </item>
+        <item>EUR -Euro-</item>
+        <item>USD -Dollar Américain-</item>
+        <item>PLN -Zloty Polonais-</item>
+        <item>GPB -Pounds Britanais-</item>
+        <item>RUB -Ruble Russe-</item>
+        <item>CZK -Couronne Tchéque</item>
+        <item>JPY -Yan Japonais-</item>
+    </string-array>
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.app.ebank.mbanking.ChequeActivity">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:text="Numero de Compte"
+        android:layout_above="@+id/textView9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="93dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Page(s) réstante(s)"
+        android:layout_below="@+id/numcompte"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Type de chéque"
+        android:layout_above="@+id/getcheque"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_marginBottom="56dp" />
+
+    <EditText
+        android:id="@+id/pagerest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_alignBaseline="@+id/textView7"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_alignLeft="@+id/numcompte"
+        android:layout_alignStart="@+id/numcompte" />
+
+    <EditText
+        android:id="@+id/numcompte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView5"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:inputType="text" />
+
+    <RadioButton
+        android:id="@+id/pagefirst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10pages"
+        android:layout_alignTop="@+id/textView9"
+        android:layout_alignLeft="@+id/pagerest"
+        android:layout_alignStart="@+id/pagerest" />
+
+    <RadioButton
+        android:id="@+id/pagesecond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/pagefirst"
+        android:layout_alignBottom="@+id/pagefirst"
+        android:layout_alignEnd="@+id/getcheque"
+        android:layout_alignRight="@+id/getcheque"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:text="20pages" />
+
+    <Button
+        android:id="@+id/getcheque"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_marginBottom="59dp"
+        android:text="Demander" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cheque"
+        android:layout_above="@+id/numcompte"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/cardpic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="31dp"
+        app:srcCompat="@mipmap/ic_launcher_round"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/cardname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/cardpic"
+        android:layout_centerHorizontal="true"
+        android:text="TextView"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:id="@+id/cardprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cardname"
+        android:layout_alignStart="@+id/cardname"
+        android:layout_below="@+id/cardname"
+        android:layout_marginTop="22dp"
+        android:text="TextView"
+        android:textColor="@android:color/holo_red_light" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cardpic"
+        android:layout_alignStart="@+id/cardpic"
+        android:layout_below="@+id/cardpic"
+        android:layout_marginTop="33dp"
+        android:text="TextView"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/contrainte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/cardpic"
+        android:layout_alignLeft="@+id/cardprice"
+        android:layout_alignStart="@+id/cardprice"
+        android:text="TextView"
+        android:textColor="@android:color/black" />
+
+</RelativeLayout>

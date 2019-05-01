@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorBackgroundFloating"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/idmobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="MOBILE BANKING "
+        android:textColor="@color/backgroundApp"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        app:srcCompat="@drawable/univlogo"
+        android:layout_below="@+id/idmobile"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:text="Vous pouvez nous contacter sur : "
+        android:textColor="@color/backgroundExchange"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView34"
+        android:layout_alignStart="@+id/textView34"
+        android:layout_below="@+id/textView34"
+        android:layout_marginTop="23dp"
+        android:text="Tel : +213661333333"
+        android:textColor="@color/backgroundHeader"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView35"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView35"
+        android:layout_marginBottom="16dp"
+        android:text="Email : mobile_banque@gmail.com"
+        android:textColor="@color/backgroundHeader"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+</RelativeLayout>
